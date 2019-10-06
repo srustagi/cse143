@@ -23,8 +23,7 @@ from contextlib import redirect_stdout
 #     zip_archive.open(fn, 'rU').read()
 def unzip_corpus(input_file):
 	zip_archive = zipfile.ZipFile(input_file)
-	contents = [zip_archive.open(fn, 'r').read().decode('utf-8') for fn in zip_archive.namelist() if fn.endswith(".txt")
-				and not fn.startswith('__MACOSX')]
+	contents = [zip_archive.open(fn, 'r').read().decode('utf-8') for fn in zip_archive.namelist() if fn.endswith(".txt") and not fn.startswith('__MACOSX')]
 	return contents
 
 
