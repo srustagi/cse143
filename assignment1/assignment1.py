@@ -83,8 +83,8 @@ def process_corpus(corpus_name):
 	vocabulary  = []
 	for document in tokenized_sentences:
 		for sentence in document:
-			vocabulary.extend(nltk.word_tokenize(sentence.lower()))
-	print("Vocabulary size of the corpus: " + str(len(set(vocabulary))), file=sys.stdout)
+			vocabulary.extend(nltk.word_tokenize(sentence))
+	print("Vocabulary size of the corpus: " + str(len(set([word.lower() for word in vocabulary]))), file=sys.stdout)
 
 	# Write the most frequent part-of-speech tag and its frequency to the stdout.
 	dist = nltk.FreqDist(tag for (word, tag) in nltk.pos_tag(vocabulary))
