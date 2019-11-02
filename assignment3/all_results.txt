@@ -1,0 +1,13 @@
+1) Feature Variation:
+	Most of my feature variation occurred in the LIWC and opinion feature sets. I attempted to begin the process with the money, optimism, discrepancy, physical states, and anger categories. However, these resulted in 0.50 and 0.51 accuracies, which were only 1-2% increases over ngrams and pos-tag ngrams (both of which were at 0.49). For opinion, I began wity the binary {0 = not present, 1 = present} approach. However, this resulted in 59mb text files for the opinion feature set, and barely any increase in accuracy. For the next iteration, I decided to remove the '0 = not present' quantifier, and simply increase a counter for each found positive or negative opinion word. This caused a heavy bias in informative features toward opinion features and a low accuracy of 0.46, so I had to revert to the previous technique of binary. After reading a few of the reviews which were incorrectly classified strongly (i.e, has a probability of 1.0 for positive yet the review is rated a 2), and changed the categories for LIWC to Optimism, Past Tense, Other references to people, Humans, Communication, and Negations. However, this resulted in a sharp drop in accuracy (with the LIWC model now performing at 0.48 accuracy, and the opinion model at 0.47 accuracy). For my final iteration, I removed the Past Tense LIWC category, and REMOVED the POS_TAG features from the LIWC and opinion feature sets. This helped me create the best model, which yielded an accuracy of 0.55 for the LIWC features, and 0.63 for opinion features.
+
+2) Model accuracies:
+	0.49: ngrams
+	0.49: pos
+	0.50: LIWC (money, optimism, discrepancy, physical states, and anger)
+	0.53: Opinion (binary) + LIWC (money, optimism, discrepancy, physical states, and anger)
+	0.46: Opinion (only present features) + LIWC (money, optimism, discrepancy, physical states, and anger)
+	0.47: LIWC (Optimism, Past Tense, Other references to people, Humans, Communication, and Negations)
+	0.48: Opinion (binary) + LIWC (Optimism, Past Tense, Other references to people, Humans, Communication, and Negations)
+	0.55: LIWC (Optimism, Other references to people, Humans, Communication, and Negations)
+	***** 0.63: Opinion (binary) + LIWC (Optimism, Other references to people, Humans, Communication, and Negations)

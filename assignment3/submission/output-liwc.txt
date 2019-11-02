@@ -1,0 +1,138 @@
+Training with word_pos_liwc_features
+Most Informative Features 
+          LIWC_NEGATIONS = 2              negati : positi =      4.6 : 1.0 
+        BIGRAM_POS_NN_CC = 0.008064516129032258 negati : positi =      3.7 : 1.0
+                  UNI_'s = 0.015151515151515152 positi : negati =      3.7 : 1.0
+        BIGRAM_POS_RB_VB = 0.013333333333333334 negati : positi =      3.7 : 1.0
+             UNI_POS_PRP = 0.07692307692307693 positi : negati =      3.7 : 1.0
+        BIGRAM_POS_NN_NN = 0.0196078431372549 positi : negati =      3.0 : 1.0
+             UNI_POS_VBZ = 0.08333333333333333 positi : negati =      3.0 : 1.0
+                 UNI_bad = 0.013888888888888888 negati : positi =      3.0 : 1.0
+              UNI_POS_CD = 0.009708737864077669 negati : positi =      3.0 : 1.0
+        BIGRAM_POS_MD_VB = 0.013333333333333334 negati : positi =      3.0 : 1.0
+    TRIGRAM_POS_NN_DT_NN = 0.013333333333333334 positi : negati =      3.0 : 1.0
+              UNI_POS_RB = 0.09090909090909091 negati : positi =      3.0 : 1.0
+             UNI_POS_VBZ = 0.07142857142857142 positi : negati =      3.0 : 1.0
+             UNI_POS_WDT = 0.008          negati : positi =      3.0 : 1.0
+    TRIGRAM_POS_RB_DT_NN = 0.008130081300813009 negati : positi =      3.0 : 1.0 
+       BIGRAM_POS_NN_VBD = 0.019230769230769232 negati : positi =      3.0 : 1.0
+        BIGRAM_POS_JJ_CC = 0.006622516556291391 positi : negati =      3.0 : 1.0
+             UNI_thought = 0.015151515151515152 positi : negati =      3.0 : 1.0
+             UNI_POS_VBN = 0.014925373134328358 negati : positi =      3.0 : 1.0
+        BIGRAM_POS_DT_JJ = None           negati : positi =      2.5 : 1.0
+The accuracy of imdb-testing.data is: 0.49 
+Proabability per class: 
+[   {'negative': 3.6742813787073936e-39, 'positive': 1.0},
+    {'negative': 2.19598406276023e-06, 'positive': 0.9999978040159022},
+    {'negative': 0.03987703538690132, 'positive': 0.9601229646130286},
+    {'negative': 0.352433062091047, 'positive': 0.6475669379090447},
+    {'negative': 3.0922692002897745e-19, 'positive': 1.0},
+    {'negative': 1.0, 'positive': 2.408722767771843e-19},
+    {'negative': 0.9994806680856784, 'positive': 0.0005193319143762025},
+    {'negative': 1.507980259613193e-15, 'positive': 1.0},
+    {'negative': 0.008455953884503431, 'positive': 0.9915440461155346}, 
+    {'negative': 0.9991444126976361, 'positive': 0.0008555873023818044},
+    {'negative': 0.0004979832041161847, 'positive': 0.9995020167957425},
+    {'negative': 0.999999997384256, 'positive': 2.6157160993598372e-09},
+    {'negative': 0.8602183200556134, 'positive': 0.13978167994438434},
+    {'negative': 1.0, 'positive': 1.7819562440932996e-18},
+    {'negative': 2.652499545625063e-05, 'positive': 0.9999734750046114},
+    {'negative': 6.669737235194574e-14, 'positive': 1.0},
+    {'negative': 3.176916799006337e-09, 'positive': 0.9999999968230302},
+    {'negative': 1.0, 'positive': 2.0513651353559214e-17},
+    {'negative': 1.0, 'positive': 1.2157696757934694e-36},
+    {'negative': 1.0, 'positive': 4.397880811411695e-23},
+    {'negative': 2.5608879870475156e-17, 'positive': 1.0},
+    {'negative': 0.03437612425011239, 'positive': 0.9656238757499632},
+    {'negative': 1.0, 'positive': 3.703760964579411e-25}, 
+    {'negative': 0.9044684550642309, 'positive': 0.09553154493573487},
+    {'negative': 0.44678170953606106, 'positive': 0.5532182904639413},
+    {'negative': 1.0, 'positive': 8.797579765917859e-18},
+    {'negative': 0.02412035554263231, 'positive': 0.9758796444572356},
+    {'negative': 1.964852688543098e-18, 'positive': 1.0},
+    {'negative': 0.5886430890297701, 'positive': 0.4113569109701804},
+    {'negative': 9.427468813149967e-05, 'positive': 0.999905725311735},
+    {'negative': 1.0, 'positive': 1.8431125495763084e-14},
+    {'negative': 1.0, 'positive': 3.988940398943471e-27},
+    {'negative': 0.9999999854892955, 'positive': 1.451066806078112e-08},
+    {'negative': 7.974437485908994e-21, 'positive': 1.0},
+    {'negative': 7.606402829815138e-14, 'positive': 1.0}, 
+    {'negative': 0.9999525513308976, 'positive': 4.744866907172888e-05},
+    {'negative': 1.0, 'positive': 8.068224004884204e-15},
+    {'negative': 1.0, 'positive': 4.583143651350661e-18},
+    {'negative': 0.30342684647959944, 'positive': 0.6965731535204785},
+    {'negative': 1.0, 'positive': 1.1295503012443378e-14},
+    {'negative': 0.9999999977550968, 'positive': 2.2448683261353006e-09},
+    {'negative': 0.03371235029071263, 'positive': 0.9662876497092507},
+    {'negative': 0.00018983680980918857, 'positive': 0.9998101631903236},
+    {'negative': 0.003924076244133436, 'positive': 0.9960759237557933},
+    {'negative': 1.3302797398354454e-09, 'positive': 0.9999999986698271}, 
+    {'negative': 0.9999997670054321, 'positive': 2.3299459928835374e-07},
+    {'negative': 1.920076085987354e-14, 'positive': 1.0},
+    {'negative': 0.9740868875500259, 'positive': 0.02591311244989727},
+    {'negative': 8.069110554436444e-18, 'positive': 1.0},
+    {'negative': 1.0, 'positive': 9.56815837218056e-14},
+    {'negative': 1.0, 'positive': 5.126129825473379e-32},
+    {'negative': 1.0, 'positive': 4.423086278486414e-20},
+    {'negative': 3.1145989470647583e-08, 'positive': 0.9999999688539394},
+    {'negative': 3.9327631212138644e-07, 'positive': 0.9999996067237477},
+    {'negative': 0.999999983755185, 'positive': 1.624479014598772e-08},
+    {'negative': 9.570430331578575e-05, 'positive': 0.9999042956967243},
+    {'negative': 0.15143296671222262, 'positive': 0.8485670332876644}, 
+    {'negative': 1.445894766374087e-05, 'positive': 0.9999855410523312},
+    {'negative': 0.9999998036891967, 'positive': 1.963106920940107e-07},
+    {'negative': 7.569205457155412e-05, 'positive': 0.9999243079454121},
+    {'negative': 4.2663426946815536e-16, 'positive': 1.0},
+    {'negative': 1.0, 'positive': 9.625324935074812e-18},
+    {'negative': 7.992769996183787e-06, 'positive': 0.9999920072298686},
+    {'negative': 0.9953788017356319, 'positive': 0.004621198264401521},
+    {'negative': 1.0, 'positive': 7.830766183358522e-40},
+    {'negative': 0.6773440721426078, 'positive': 0.32265592785733443},
+    {'negative': 2.037671684458461e-11, 'positive': 0.9999999999796692},
+    {'negative': 0.8662829612554319, 'positive': 0.1337170387446264},
+    {'negative': 0.9999999989888164, 'positive': 1.0112839347503948e-09}, 
+    {'negative': 1.4517382813078957e-05, 'positive': 0.9999854826172174},
+    {'negative': 0.03574161983519597, 'positive': 0.9642583801647492},
+    {'negative': 0.9998573353863054, 'positive': 0.00014266461373686995},
+    {'negative': 0.010197022776539113, 'positive': 0.9898029772234452},
+    {'negative': 8.517761658382504e-07, 'positive': 0.9999991482238424},
+    {'negative': 5.784454268725627e-13, 'positive': 0.9999999999993696},
+    {'negative': 1.0, 'positive': 1.3778489587154782e-16},
+    {'negative': 0.0008965363505307075, 'positive': 0.9991034636494786},
+    {'negative': 4.5120654147723885e-13, 'positive': 0.9999999999995272},
+    {'negative': 0.9420551401530415, 'positive': 0.05794485984694673},
+    {'negative': 4.3349803252120725e-21, 'positive': 1.0}, 
+    {'negative': 2.125397861367326e-18, 'positive': 1.0},
+    {'negative': 1.0, 'positive': 4.5952677437957604e-17},
+    {'negative': 0.9999999763683127, 'positive': 2.363174264671054e-08},
+    {'negative': 2.9200210586770134e-05, 'positive': 0.9999707997894309},
+    {'negative': 9.395447013153343e-11, 'positive': 0.9999999999060684},
+    {'negative': 0.9999993525814272, 'positive': 6.474185620081456e-07},
+    {'negative': 3.942981759311748e-37, 'positive': 1.0},
+    {'negative': 0.5263756487009517, 'positive': 0.4736243512991856},
+    {'negative': 2.728384226622486e-18, 'positive': 1.0},
+    {'negative': 1.0, 'positive': 5.076940139753964e-33},
+    {'negative': 1.0, 'positive': 8.838594753946497e-15},
+    {'negative': 1.0496731649394585e-16, 'positive': 1.0},
+    {'negative': 1.0, 'positive': 4.890105920438494e-15},
+    {'negative': 0.9987686148674157, 'positive': 0.001231385132465663}, 
+    {'negative': 1.0, 'positive': 2.1453511217239321e-16},
+    {'negative': 0.0028551436922546187, 'positive': 0.9971448563077075},
+    {'negative': 5.925441343936575e-13, 'positive': 0.9999999999993696},
+    {'negative': 1.0, 'positive': 1.618407395495588e-17},
+    {'negative': 0.9999998695207658, 'positive': 1.30479224913565e-07},
+    {'negative': 1.28751837962992e-08, 'positive': 0.9999999871247461}]
+Confusion Matrix:
+         |  n  p |
+         |  e  o |
+         |  g  s |
+         |  a  i |
+         |  t  t |
+         |  i  i |
+         |  v  v |
+         |  e  e |
+---------+-------+
+negative |<23>26 |
+positive | 25<26>|
+---------+-------+
+(row = reference; col = test)
